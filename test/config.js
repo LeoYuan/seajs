@@ -8,7 +8,7 @@
     factory(require, exports)
   }
   else {
-    factory(null, this)
+    factory(null, this);
   }
 
 })(function(require, exports) {
