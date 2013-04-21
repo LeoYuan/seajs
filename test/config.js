@@ -1,11 +1,10 @@
-
 ;(function(factory) {
 
   if (typeof define === 'function') {
     define(factory)
   }
   else if (typeof exports !== 'undefined') {
-    factory(require, exports)
+    factory(require, exports);
   }
   else {
     factory(null, this);
